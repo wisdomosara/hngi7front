@@ -4,7 +4,8 @@ body{
 .logo{
     font-family: 'Miss Fajardose';
     font-size: 55px;
-    margin:0
+    margin:0;
+    font-weight: 500;
 }
 nav{
     font-family: 'Poppins';
@@ -15,25 +16,27 @@ nav{
     align-items: baseline;
 }
 
-ul li{
+.big-nav ul li{
     float: left;
     list-style: none;
-    margin-right: 20px;
+    margin-right: 40px;
     font-size: 17px;
 }
 a{
     text-decoration: none;
     color: rgb(254, 255, 254)
 }
-a:active{
-    color: rgb(255, 255, 255)
+a:target{
+    color:#C9A96A
+}
+a:hover{
+    color: #C9A96A
 }
 .home-text{
-    margin-top:-100px;
+    margin-top:-90px;
     color:rgb(255, 255, 255);
-    font-family: Miss Fajardose;
-    font-weight: 200;
-    text-emphasis: center;
+    font-weight: 300;
+    text-align: center;
 }
 #front{
     background-image: url("images/front.jpg");
@@ -51,7 +54,7 @@ a:active{
     margin-top:-270px;
     color:#C9A96A;
     font-size: 25px;
-    font-family: Centaur
+    font-family: monotype;
 }
 .close .small-nav{
     display: block;
@@ -65,7 +68,6 @@ a:active{
     width:100%;
     padding:0 0 0 0;
     margin:0;
-    
 }
 .small-nav li{
     float: none;
@@ -73,10 +75,10 @@ a:active{
     margin: 0;
 }
 .small-nav li a{
-    color:black;
-    font-family:'Poppins';
-    
+    color:#C9A96A;
+    font-family: 'Poppins'
 }
+
 .small-nav ul{
     padding:0;
 }
@@ -88,6 +90,8 @@ a:active{
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* margin: 0 auto;
+    text-align: center; */
 }
 .tiles{
     width:20px;
@@ -96,26 +100,26 @@ a:active{
     margin-top:3px;
 }
 
-@media only screen and (max-width:578px){
+@media only screen and (max-width:576px){
     .big-nav{
         display: none;
     }
-    nav{
-        align-items: center;
-    }
     .main{
         font-size: 90px;
+        color: white
+    }
+    nav{
+        display: flex;
+        align-items: center;
     }
     .small{
         margin-top:-125px;
         font-size:20px;
-        font-weight:300;
     }
     .home-text{
         color:rgb(255, 255, 255);
-        font-family: Miss Fajardose;
-        font-weight: 200;
-        margin-top:10vh;
+        font-weight: 300;
+        margin-top:5vh;
     }
     #front{
         background-image: url("images/front1.jpg");
@@ -136,5 +140,10 @@ a:active{
     }
     .mobile{
         display: block;
+    }
+}
+@media only screen and (min-width:577px){
+    @media only screen and (max-width:1040px){
+        
     }
 }
