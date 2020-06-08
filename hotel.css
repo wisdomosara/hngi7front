@@ -110,7 +110,7 @@ a:active{
         color:rgb(255, 255, 255);
         font-family: Miss Fajardose;
         font-weight: 200;
-        margin-top:0;
+        margin-top:10vh;
     }
     #front{
         background-image: url("images/front1.jpg");
@@ -131,5 +131,6 @@ a:active{
     }
     .mobile{
         display: block;
+        margin-top:-12px;
     }
 }
