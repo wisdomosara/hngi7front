@@ -74,7 +74,9 @@ a:active{
     margin: 0;
 }
 .small-nav li a{
-    color:black
+    color:black;
+    font-family:'Poppins';
+    
 }
 .small-nav ul{
     padding:0;
