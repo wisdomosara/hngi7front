@@ -99,6 +99,9 @@ a:active{
     .big-nav{
         display: none;
     }
+    nav{
+        align-items: center;
+    }
     .main{
         font-size: 90px;
     }
@@ -131,6 +134,6 @@ a:active{
     }
     .mobile{
         display: block;
-        margin-top:-12px;
+        margin-top:-8px;
     }
 }
